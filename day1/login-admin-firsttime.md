@@ -10,6 +10,13 @@ Password: geoserver
 
 4. หลังจาก Login แล้ว ให้สังเกตเมนูด้านซ้าย
 
+    - **ส่วน Server Status**
+      - **Status** สถานะการทำงานของระบบ
+      - **Module** ที่ติดตั้งอยู่ใน geoserver
+      - **System** Status สถานะของเครื่องที่ geoserver เปิดใช้งานอยู่
+    - **ส่วน GeoServer Logs** แสดง Logs การทำงาน
+    - **ส่วน Contact Information** ข้อมูลของผู้ให้บริการ GeoServer ข้อมูลนี้จะติดไปกับ Response ที่ส่งให้ client ด้วย
+
 ## เปลี่ยน Master Password 
 
 ส่วนที่จำเป็นต้องทำใน Production เราสามารถเปลี่ยน Master Password ได้ทันทีหลังล๊อคอินเข้ามาแล้ว
