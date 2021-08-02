@@ -14,10 +14,11 @@ Password: geoserver
 
 ส่วนที่จำเป็นต้องทำใน Production เราสามารถเปลี่ยน Master Password ได้ทันทีหลังล๊อคอินเข้ามาแล้ว
 
+<img width="573" alt="2021-08-02_11-41-16" src="https://user-images.githubusercontent.com/85179/127805529-94e4e83f-a213-47cb-9431-5d8d3430058d.png">
+
 1. จากหน้า dashboard คลิกเลือก Change it 
 2. กรอกหรัสผ่านเดิม และรหัสผ่านใหม่ 
 3. กดยืนยัน change password
-
 
 เราสามารถกลับมาที่ส่วนนี้ได้อีกครั้งจากเมนูด้านซ้ายมือ:
 Security > Password > Active Master Password Provider > Change password
