@@ -7,3 +7,5 @@
 2. [การเปิดปิด GeoServer](run-geoserver.md)
 3. [สำรวจส่วนผู้ดูแลระบบ (Administrator) 1](login-admin-firsttime.md)
 4. [สำรวจแหล่งข้อมูล Workspace, Store, และ Layer](explore-data.md)
+5. [สำรวจ Data Directory](data-directory.md)
+6. [Workshop: Publish Shape file](workshop-publish-shapefile.md)
