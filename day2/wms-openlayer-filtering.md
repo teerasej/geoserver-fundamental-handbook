@@ -18,6 +18,7 @@ WMS แบบมาตรฐานมักเปิดให้มีการ 
 
 จากส่วนนี้กดปุ่ม **...** เพื่อเปิด Tool bar ขึ้นมา เครื่องมือที่เห็นคือ Parameter ที่สามารถส่งมาพร้อมกับ request ได้ 
 
+<img width="959" alt="2021-08-03_21-23-30" src="https://user-images.githubusercontent.com/85179/128032630-e63b9c95-82a8-455e-a862-1f9e13885361.png">
 
 
 ## ทดสอบปรับค่า parameter ใน Toolbar
