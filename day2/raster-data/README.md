@@ -1,7 +1,7 @@
 
 # การทำงานกับข้อมูลแบบ Raster
 
-> > Download ไฟล์จากที่นี่ และนำไปไว้ใน `data_dir/data`
+> [Download ไฟล์ชื่อ raster_data.zip](https://www.dropbox.com/s/ny19lfdm570n3fm/raster_data.zip?dl=0)
 
 Raster Data เป็นประเภทข้อมูลเก่าแก่ของ GeoServer ถึงแม้ว่าจะไม่ได้ยืดหยุ่นแบบ Vector Data แต่หลายแหล่งข้อมูลก็มาในรูปแบบ Raster Data
 
