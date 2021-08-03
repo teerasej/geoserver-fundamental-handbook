@@ -16,3 +16,5 @@
     - **Bounding Boxes**: กด compute ให้ครบ
 
 เสร็จแล้วพรีวิวจะได้ภาพตามด้านล่าง
+
+<img width="727" alt="2021-08-03_15-31-01" src="https://user-images.githubusercontent.com/85179/128031909-8966125a-e851-4526-81a4-803866d0d7f6.png">
