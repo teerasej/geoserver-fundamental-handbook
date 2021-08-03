@@ -9,3 +9,4 @@
 4. [สำรวจแหล่งข้อมูล Workspace, Store, และ Layer](explore-data.md)
 5. [สำรวจ Data Directory](data-directory.md)
 6. [Workshop: Publish Shape file](workshop-publish-shapefile.md)
+7. [Excercise: Publish Shape file](exercise-publish-shapfile.md)
