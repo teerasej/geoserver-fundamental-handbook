@@ -24,10 +24,10 @@
 9.  ด้านล่างกดปุ่ม **Style** และเลือก **Save Style...**
 10. เลือก **Save style as SLD file** และกำหนดที่อยู่ของไฟล์
 11. กลับมาที่หน้าเว็บ GeoServer 
-12. เลือก Data > Styles > Add New Styles
-13. ตั้งชื่อ Style และเลือก format เป็น SLD
-14. ในส่วน Upload a style file ให้เลือกไฟล์ SLD ที่ได้จาก QGIS และกด upload จะเห็นว่าโค้ด SLD แสดงขึ้นมาในส่วนด้านล่าง
-15. กด Layer Preview tab และเลือก Main Road Layer 
+12. เลือก **Data > Styles > Add New Styles**
+13. ตั้งชื่อ Style และเลือก format เป็น **SLD**
+14. ในส่วน **Upload a style file** ให้เลือกไฟล์ SLD ที่ได้จาก QGIS และกด **upload** จะเห็นว่าโค้ด SLD แสดงขึ้นมาในส่วนด้านล่าง
+15. กด **Layer Preview** tab และเลือก **Main Road** Layer 
 
 ## ด้วย CSS
 

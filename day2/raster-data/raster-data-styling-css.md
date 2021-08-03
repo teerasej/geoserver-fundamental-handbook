@@ -8,17 +8,55 @@
 2. เลือกไฟล์ชื่อ **srtm_boulder.tiff** จาก directory ชื่อ **mosaic_single_tiff**
 3. กำหนดสร้าง layer ให้เรียบร้อย
 
-## ด้วย QGIS
-
-1. เปิด QGIS
-2. ใช้การเชื่อมต่อ WCS
-
 
 ## ด้วย CSS 
 
 workshop นี้ต้อง[ผ่านการติดตั้ง CSS Extension ในขั้นตอนนี้แล้ว](../../day1/add-extension.md)
 
-
 1. จากหน้าเว็บ GeoServer > Data > Styles และสร้าง Style ใหม่
 2. ตั้งชื่อ Style ว่า **srtm css**
 3. กำหนด format เป็น CSS 
+4. เขียน CSS Rule ตามด้านล่าง 
+
+```css
+* {
+   raster-channels: auto;
+   raster-color-map:
+     color-map-entry(black, 0, 0)
+     color-map-entry(green, 1500)
+
+     color-map-entry(yellow, 2000)
+     color-map-entry(maroon, 3000)
+     color-map-entry(white, 4000);
+}
+```
+
+5. กด apply
+6. เปิด Layer Preview tab และเลือก **strm_boulder** layer
+
+## ด้วย QGIS
+
+1. เปิด QGIS
+2. ใช้การเชื่อมต่อ WCS ไปที่ **http://localhost:8080/geoserver/nextflow/wcs**
+3. เลือกเพิ่ม strm_boulder layer ลงโปรเจค
+4. คลิกขวาที่ layer > properties...
+
+### กำหนดค่าสี
+
+5. เลือก Symbology
+6. กำหนดค่าตามด้านล่าง
+
+- Render type: Singleband pseudocolor
+- Interpolation: Linear
+- Color Ramp: เลือกตามต้องการ (หรือจะเลือกกดเพิ่มจากส่วนปุ่ม + ด้านล่าง หรือ Classify เพื่อให้คำนวนค่าก็ได้)
+- กด Apply 
+
+### บันทึกและเอาไปใช้ใน GeoServer
+
+7.  ด้านล่างกดปุ่ม **Style** และเลือก **Save Style...**
+8. เลือก **Save style as SLD file** และกำหนดที่อยู่ของไฟล์
+9. กลับมาที่หน้าเว็บ GeoServer 
+10. เลือก **Data > Styles > Add New Styles**
+11. ตั้งชื่อ Style และเลือก format เป็น **SLD**
+12. ในส่วน **Upload a style file** ให้เลือกไฟล์ **SLD** ที่ได้จาก QGIS **และกด** upload จะเห็นว่าโค้ด SLD แสดงขึ้นมาในส่วนด้านล่าง
+13. กด **Layer Preview** tab และเลือก **strm_boulder** layer
