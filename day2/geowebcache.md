@@ -6,6 +6,6 @@ GeoWebCache เป็นระบบหนึ่งที่รวมอยู�
 ## การเปิดใช้งาน GeoWebCache โดยตรง
 
 1. [ลงชื่อเข้าใช้งาน](../day1/login-admin-firsttime.md)
-2. ไปที่ Tile caching > Caching default
+2. ไปที่ **Tile caching > Caching default**
 3. เลือก **Enable direct integration with GeoServer WMS**
-4. กด Save
+4. กด **Save**

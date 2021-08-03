@@ -8,7 +8,7 @@
 
 - **Store**:
     - **name**: MainRoad
-    - **Shapefile locatio**n: เลือกที่อยู่ของไฟล์ Mainrd.shp ที่อยู่ใน data_dir
+    - **Shapefile location**: เลือกที่อยู่ของไฟล์ Mainrd.shp ที่อยู่ใน data_dir
 
 - **Layer**:
     - **name**: MainRoad
