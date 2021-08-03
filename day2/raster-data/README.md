@@ -7,4 +7,6 @@ Raster Data เป็นประเภทข้อมูลเก่าแก�
 
 1. [การ Publish Raster Data](publish-raster-data.md)
 2. [การ Publish Raster Data แบบรวมภาพถ่ายมุมสูง (Image Mosaic)](publish-raster-image-mosaic.md)
-3. [สำรวจการทำงานของ WCS Protocol](explore-wcs.md) 
+3. [การทำ Styling Raster Data](raster-data-styling-css.md)
+4. [สำรวจการทำงานของ WCS Protocol](explore-wcs.md) 
+
