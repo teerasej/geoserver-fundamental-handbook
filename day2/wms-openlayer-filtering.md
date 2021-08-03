@@ -16,9 +16,9 @@ WMS แบบมาตรฐานมักเปิดให้มีการ 
 3. ค้นหา Layer ชื่อ **USA Population**
 4. เลือก Common Formats เป็น **OpenLayers**
 
-จากส่วนนี้กดปุ่ม **...** เพื่อเปิด Tool bar ขึ้นมา
+จากส่วนนี้กดปุ่ม **...** เพื่อเปิด Tool bar ขึ้นมา เครื่องมือที่เห็นคือ Parameter ที่สามารถส่งมาพร้อมกับ request ได้ 
 
-toolbar พวกนี้คือ Parameter ที่สามารถส่งมาพร้อมกับ request ได้ 
+
 
 ## ทดสอบปรับค่า parameter ใน Toolbar
 
