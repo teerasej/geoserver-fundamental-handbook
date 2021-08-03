@@ -60,7 +60,7 @@
 6. สามารถเลือก Tab Layer Preview เพื่อดู style ได้
    - ทดสอบ Preview poly_landmarks style จะเห็นว่าใช้ได้กับ layer tiger:poly_landmarks อย่างเดียว
    - ออกมาเลือก line style และพรีวิว
-     - topp:tasmania_roads,sf:roads จะเห็นเป็นเส้นถนน
-     - topp:tasmania_state_boundaries, tiger:poly_landmarks จะเห็นเส้นตีเป็นบริเวณพื้นที่
-     - sf:streams จะเห็นเป็นเส้นแม่น้ำ
-     - พวก Raster อย่าง Img_Sample, Pk50095 จะเห็นเป็นกรอบ 4 เหลี่ยม 
+     - **topp:tasmania_roads,sf:roads** จะเห็นเป็นเส้นถนน
+     - **topp:tasmania_state_boundaries, tiger:poly_landmarks** จะเห็นเส้นตีเป็นบริเวณพื้นที่
+     - **sf:streams** จะเห็นเป็นเส้นแม่น้ำ
+     - พวก Raster อย่าง **Img_Sample, Pk50095** จะเห็นเป็นกรอบ 4 เหลี่ยม 
