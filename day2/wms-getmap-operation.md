@@ -80,3 +80,22 @@ request=GetMap
 &height=330
 &format=application%2Fopenlayers
 ```
+
+## Workshop 3 Reflector
+
+ในกรณีที่เราส่ง request เราสามารถใช้ [Reflector](https://docs.geoserver.org/stable/en/user/tutorials/wmsreflector.html) ในการใช้งาน เพื่อลดความซับซ้อนของ Request URL ได้ เช่น
+
+```
+http://localhost:8080/geoserver/wms/reflect?layers=topp:states
+```
+
+```
+// Layer groups
+http://localhost:8080/geoserver/wms/reflect?layers=spearfish
+```
+
+และยังสามารถทำไปใช้ใน Web Client ได้เช่นเดียวกัน 
+
+```html
+<img src="http://localhost:8080/geoserver/wms/reflect?layers=topp:states&width=400" />
+```
