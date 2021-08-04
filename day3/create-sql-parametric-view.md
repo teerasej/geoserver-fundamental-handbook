@@ -28,4 +28,6 @@
 
 <img width="704" alt="2021-08-04_22-05-54" src="https://user-images.githubusercontent.com/85179/128206818-fa563c3f-c56a-4b7a-b802-93a2d8bbcf77.png">
 
-เสร็จแล้วกด Save จะเป็นการสร้าง Layer ใหม่ (ซึ่งเราจะไม่สามารถกลับมาแก้ไข SQL View ได้อีก
+เสร็จแล้วกด Save จะเป็นการสร้าง Layer ใหม่ 
+
+- การแก้ไข SQL Statement สามารถใช้วิธีกด edit layer และลงมาด้านล่างของ Feature Type Details จะมี link ชื่อ **Edit SQL view**
