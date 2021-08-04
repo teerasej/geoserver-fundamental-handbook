@@ -19,7 +19,7 @@
 - Tasmania water bodies จาก Tasmania
 - Tasmania state boundaries
 
-## การใช้งาน Layer จาก WPS
+## การใช้งาน Layer จาก WFS
 
 1. คลิกขวา และเลือก **Show Attribute Table**
 
