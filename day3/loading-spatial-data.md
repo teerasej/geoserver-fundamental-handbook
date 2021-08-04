@@ -5,25 +5,31 @@
 
 ## โหลดข้อมูลจาก Backup 
 
-จากเมนูด้านซ้ายมือ คลิกขวาที่ฐานข้อมูล **nyc > Restore...**
+1. จากเมนูด้านซ้ายมือ คลิกขวาที่ฐานข้อมูล **nyc > Restore...**
+
+<img width="344" alt="2021-08-04_21-25-39" src="https://user-images.githubusercontent.com/85179/128198639-8f3b9341-58b0-440c-93c0-20238fe292f1.png">
 
 
+2. จากโฟลเดอร์ข้อมูลสำหรับทำ workshop ให้เลือกไฟล์ชื่อ **nyc_data.backup**
 
-จากโฟลเดอร์ข้อมูลสำหรับทำ workshop ให้เลือกไฟล์ชื่อ **nyc_data.backup**
+<img width="698" alt="2021-08-04_21-26-54" src="https://user-images.githubusercontent.com/85179/128199119-26872620-6f55-4ce7-be7a-a943a51dd7d7.png">
 
 
-ในส่วน **restore options** tab **> do not save** ให้เลือก **owner** เป็น yes
+3. ในส่วน **restore options** tab **> do not save** ให้เลือก **owner** เป็น yes
 จากนั้นกดปุ่ม **Restore**
 
+<img width="700" alt="2021-08-04_21-27-13" src="https://user-images.githubusercontent.com/85179/128199136-6c609938-dae8-4e78-9fd4-540ab2a4046d.png">
 
 
-หลังจากการ restore เสร็จสมบูรณ์ ให้คลิกขวาที่ฐานข้อมูล **nyc > Refresh...**
-
-ให้สำรวจดู table ในฐานข้อมูล nyc โดยคลิกดูตามลำดับ
+4. หลังจากการ restore เสร็จสมบูรณ์ ให้คลิกขวาที่ฐานข้อมูล **nyc > Refresh...**
+5. ให้สำรวจดู table ในฐานข้อมูล nyc โดยคลิกดูตามลำดับ
 
 **nyc > Schemas > public > Tables**
 
-จะเห็นว่ามี Table ข้อมูล
+จะเห็นว่ามี Table ข้อมูลต่างๆ อยู่ด้านใน
+
+<img width="314" alt="2021-08-04_21-28-09" src="https://user-images.githubusercontent.com/85179/128199220-abb0b962-5834-4604-a1e7-d05778e280ca.png">
+
 
 ## อื่นๆ 
 
