@@ -3,22 +3,24 @@
 
 ## โหลดข้อมูลจาก Backup 
 
-จากเมนูด้านซ้ายมือ คลิกขวาที่ฐานข้อมูล nyc > Restore...
+จากเมนูด้านซ้ายมือ คลิกขวาที่ฐานข้อมูล **nyc > Restore...**
 
 
 จากโฟลเดอร์ข้อมูลสำหรับทำ workshop ให้เลือกไฟล์ชื่อ **nyc_data.backup**
 
 
-ในส่วน restore options tab > do not save ให้เลือก owner เป็น yes
-จากนั้นกดปุ่ม Restore
+ในส่วน **restore options** tab **> do not save** ให้เลือก **owner** เป็น yes
+จากนั้นกดปุ่ม **Restore**
 
 
 
-หลังจากการ restore เสร็จสมบูรณ์ ให้คลิกขวาที่ฐานข้อมูล nyc > Refresh...
+หลังจากการ restore เสร็จสมบูรณ์ ให้คลิกขวาที่ฐานข้อมูล **nyc > Refresh...**
 
 ให้สำรวจดู table ในฐานข้อมูล nyc โดยคลิกดูตามลำดับ
 
-nyc > Schemas > public > Tables
+**nyc > Schemas > public > Tables**
+
+จะเห็นว่ามี Table ข้อมูล
 
 ## อื่นๆ 
 
