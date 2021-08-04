@@ -7,3 +7,4 @@ Vector Data เป็นข้อมูลที่ใช้กันแพร�
 2. [การทำ filtering](filter-in-client.md)
 3. [การเชื่อมต่อแบบ WFS](request-as-wfs.md)
 4. [การ styling map ด้วย CSS](css-styling.md)
+5. [การ Export เป็น GeoJSON, CSV, Zipped Shapefile](output-to-multiformat.md)
