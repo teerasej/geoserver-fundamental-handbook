@@ -1,9 +1,12 @@
 
 # การโหลด Spatial Data
 
+สามารถดาวน์โหลดไฟล์ที่ใช้ใน workshop นี้[ได้จากที่นี่](https://www.dropbox.com/s/ejnppxj6bfvpl5l/nyc_data.backup.zip?dl=0)
+
 ## โหลดข้อมูลจาก Backup 
 
 จากเมนูด้านซ้ายมือ คลิกขวาที่ฐานข้อมูล **nyc > Restore...**
+
 
 
 จากโฟลเดอร์ข้อมูลสำหรับทำ workshop ให้เลือกไฟล์ชื่อ **nyc_data.backup**
